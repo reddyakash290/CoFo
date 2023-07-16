@@ -68,6 +68,11 @@ nav {
   text-decoration: none;
   font-size: 18px;
   letter-spacing: 0.05rem;
+  background-color: #000000;
+  display: flex;
+  align-self: self-start;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .h-list a:hover {
@@ -83,6 +88,11 @@ nav {
   color: bisque;
   font-size: 44px;
   pointer-events: none;
+}
+
+.h-wlogo {
+  height: 30px;
+  background-color: #e2e8f0;
 }
 
 /* this section is for hero 
@@ -230,6 +240,26 @@ sc-img*/
 /* this section is footer */
 
 .footer {
-  background-color: #e2e8f0;
-  height: 200px;
+  /* padding-top: 20px; */
+  background-color: #000000;
+  /* height: 30px; */
+  padding: 5px;
+}
+
+.f-con {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.f-c {
+  color: rgb(116, 116, 116);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.f-mail {
+  color: rgb(116, 116, 116);
+  font-size: 15px;
+  font-weight: 700;
 }
