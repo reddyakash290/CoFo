@@ -1,0 +1,228 @@
+/* primary color: #e2e8f0   img:: FBDA27   <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+grey color ::   #e2e8f0; 
+
+
+Image by <a href="https://www.freepik.com/free-photo/flat-lay-notebook-cinema-equipment_7166110.htm#query=film%20making&position=47&from_view=search&track=ais">Freepik</a>
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: bisque;
+  /* font-family: sans-serif; */
+}
+
+body {
+  /* background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.932)
+  ); */
+
+  background-color: black;
+}
+
+/* this is for bng image for landing page */
+
+.bng {
+  height: 100vh;
+  padding-top: 20px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.71)
+    ),
+    url(images/4266226.jpg);
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+/* this is for container */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* this section is for Header */
+
+/* .header {
+  position: absolute;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 3;
+  width: 80%;
+}
+
+.h-list {
+  display: flex;
+  gap: 25px;
+}
+
+.h-list a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 0.05rem;
+}
+
+.h-list a:hover {
+  display: flex;
+  justify-self: self-start;
+  align-self: self-start;
+  background-color: #fbdb2771;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.h-logo {
+  color: bisque;
+  font-size: 44px;
+  pointer-events: none;
+}
+
+/* this section is for hero 
+and main class is landing  --- class l-p for paragraph including heading */
+
+.landing {
+  display: flex;
+  gap: 7%;
+  align-content: center;
+  width: 71.5%;
+  transform: translate(20%, 95%);
+  /* background-image: linear-gradient(
+    to right,
+    rgba(255, 228, 196, 0.053),
+    rgba(255, 228, 196, 0.041)
+  ); */
+
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 228, 196, 0.238),
+    rgba(255, 196, 230, 0.248)
+  );
+  border-radius: 10px;
+}
+
+.landing:hover {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 228, 196, 0.238),
+    rgba(255, 196, 230, 0.248)
+  );
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: bisque;
+  margin-bottom: 0.5rem;
+  font-family: sans-serif;
+}
+
+.l-img {
+  height: 15rem;
+}
+
+.l-p {
+  align-self: center;
+  font-size: 1rem;
+  transform: translateY(-1%);
+  /* background-image: linear-gradient(
+    180deg,
+    rgba(255, 228, 196, 0.238),
+    rgba(255, 196, 230, 0.248)
+  ); */
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-family: sans-serif;
+  /* pointer-events: none; */
+}
+
+/* .l-p:hover {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 228, 196, 0.238),
+    rgba(255, 196, 230, 0.248)
+  );
+} */
+
+.l-p p {
+  color: #e2e8f0;
+}
+
+/* this section is for card 
+class::
+main-- sc-join
+container for card --- sc-card
+sc-img*/
+
+.sc-join {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-bottom: 5rem;
+}
+
+.sc-card {
+  background-color: whitesmoke;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 2px 0px 8px #fbda27;
+}
+
+.sc-card:hover {
+  background-color: black;
+}
+
+.sc-img {
+  height: 8rem;
+  margin-bottom: 10px;
+}
+
+.sc-p {
+  color: #fbda27;
+  /* color: #747474; */
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+/* this section is for about */
+
+.a-bgn {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.844),
+      rgba(0, 0, 0, 0.459)
+    ),
+    url(images/about\ be.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.a-p {
+  width: 40%;
+  translate: 650px 180px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 228, 196, 0.26),
+    rgba(255, 228, 196, 0.303)
+  );
+  padding: 26px;
+  border-radius: 10px;
+}
+
+.a-pp {
+  font-size: 1.3rem;
+  color: white;
+}
