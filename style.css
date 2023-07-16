@@ -226,3 +226,10 @@ sc-img*/
   font-size: 1.3rem;
   color: white;
 }
+
+/* this section is footer */
+
+.footer {
+  background-color: #e2e8f0;
+  height: 200px;
+}
