@@ -309,7 +309,7 @@ sc-img*/
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 450px) {
   /* this is for header */
 
   .h-logo {
@@ -349,10 +349,10 @@ sc-img*/
 
   /* this is for why us */
 
-  /* .sc-join {
+  .sc-join {
     overflow: scroll;
     justify-content: space-between;
-  } */
+  }
 
   .sc-img {
     height: 50px;
