@@ -263,3 +263,48 @@ sc-img*/
   font-size: 15px;
   font-weight: 700;
 }
+
+@media (max-width: 500px) {
+  /* this is for header */
+
+  .h-logo {
+    font-size: 16px;
+  }
+  .h-list a {
+    font-size: 12px;
+  }
+
+  /* this is for landing page */
+
+  .landing {
+    /* display: flex; */
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    transform: translate(0);
+    transform: translateY(300px);
+    background-image: none;
+  }
+
+  .landing:hover {
+    background-image: none;
+  }
+
+  /* this is for why us */
+
+  .sc-join {
+    overflow: scroll;
+    justify-content: space-between;
+  }
+
+  /* this is for about us */
+
+  .a-pp {
+    font-size: 15px;
+  }
+
+  .a-p {
+    translate: 100px 250px;
+    width: 60%;
+  }
+}
