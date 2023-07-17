@@ -308,3 +308,80 @@ sc-img*/
     width: 60%;
   }
 }
+
+@media (max-width: 440px) {
+  /* this is for header */
+
+  .h-logo {
+    font-size: 30px;
+  }
+
+  .h-list {
+    gap: 3px;
+  }
+  .h-list a {
+    font-size: 14px;
+  }
+
+  /* this is for landing page */
+
+  .landing {
+    /* display: flex; */
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    transform: translate(0);
+    transform: translateY(200px);
+    background-image: none;
+  }
+
+  .landing:hover {
+    background-image: none;
+  }
+
+  .l-p {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  /* this is for why us */
+
+  /* .sc-join {
+    overflow: scroll;
+    justify-content: space-between;
+  } */
+
+  .sc-img {
+    height: 50px;
+  }
+
+  .sc-p {
+    font-size: 6px;
+  }
+
+  .sc-card {
+    padding: 10px;
+  }
+
+  /* this is for about us */
+
+  .a-pp {
+    font-size: 10px;
+  }
+
+  .a-p {
+    translate: 100px 190px;
+    width: 60%;
+  }
+
+  .f-c {
+    font-size: 5px;
+  }
+
+  .f-mail {
+    font-size: 5px;
+  }
+}
