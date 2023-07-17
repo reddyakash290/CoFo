@@ -360,6 +360,7 @@ sc-img*/
 
   .sc-p {
     font-size: 6px;
+    color: #000000;
   }
 
   .sc-card {
@@ -370,11 +371,15 @@ sc-img*/
 
   .a-pp {
     font-size: 10px;
+    color: #000000;
+    font-weight: 600;
   }
 
   .a-p {
     translate: 100px 190px;
     width: 60%;
+    background-image: linear-gradient(to bottom, #fbdb27c6, #fbdb27b7);
+    box-shadow: 2px 1px 15px rgba(255, 255, 255, 0.663);
   }
 
   .f-c {
